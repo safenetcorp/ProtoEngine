@@ -1,7 +1,7 @@
 # PROTOENGINE
 
 **PROTOENGINE** is a simple 2D game engine built with **C++** and **SFML**, designed for quick prototyping of sprite-based games.
-**Linux Version - (https://www.github.com/safenetcorp/ProtoEngine-Linux/)**
+**🐧 Linux Version - (https://www.github.com/safenetcorp/ProtoEngine-Linux/)**
 ---
 
 ## ✨ Features
@@ -20,30 +20,11 @@ Before building **PROTOENGINE**, make sure you have the following installed:
 
 - **C++17 or newer** (tested with GCC, MinGW, and Clang)
 - [SFML 2.5+](https://www.sfml-dev.org/download.php)  
-  - Modules: `system`, `window`, `graphics` (audio optional)
+  - Modules: `system`, `window`, `graphics`, `audio`
 
 ---
 
-## 📂 Project Structure
-ProtoEngine/
-    build/
-        linux/
-        win/
-            game.exe <-- Main Game
-    engine/ <-- Main Engine Folder
-        fonts/
-            <=Fonts=>
-        render/
-            sprite/
-                main/ <-- For Rendering Sprites
-                input/ <-- For Moving
-            text/
-                text_render.cxx
-                text_header.hpp
-            window/
-                window_render.cxx <-- Main Render File
-                window_header.hpp
-            all.hpp <-- Header for all headers
-        build.bat <-- Builder For Windows(Need SFML and G++)
-        build.sh <-- Builder For Unix-Systems(Need SFML and G++)
-        game.cxx <-- Main File For Build
+## 💫 End
+- Good luck with your game development!
+- By LethalStudio (aka ProtoEngine)!
+---
